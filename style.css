@@ -1,0 +1,49 @@
+body{
+    background-color:  #ffd700;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.video-card {
+    background-color: rgb(202, 210, 210);
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    margin: 0.5rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: .25rem;
+}
+
+/* Memberikan latar belakang gelap pada card video dan penjelasan */
+.card-video {
+    background-color: #333; /* Warna latar belakang gelap */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Mengubah warna teks pada card video dan penjelasan menjadi putih */
+.card-video .card-body {
+    color: #fff;
+}
+
+/* Mengubah warna teks pada judul card video */
+.card-video .card-title {
+    color: #ffd700; /* Warna kuning */
+}
